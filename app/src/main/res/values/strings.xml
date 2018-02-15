@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">projectDicionary</string>
+    <string name="buscar">buscar</string>
+    <string name="nueva">nueva</string>
+    <string name="salir">salir</string>
+</resources>
