@@ -3,4 +3,7 @@
     <string name="buscar">buscar</string>
     <string name="nueva">nueva</string>
     <string name="salir">salir</string>
+    <string name="palabra_a_introducir">Palabra a introducir</string>
+    <string name="insertar">Insertar</string>
+    <string name="sinonimo">sinonimo</string>
 </resources>
