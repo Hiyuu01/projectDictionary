@@ -14,7 +14,8 @@
         android:orientation="horizontal">
 
         <EditText
-            android:id="@+id/palabra"
+            android:id="@+id/edit_palabra"
+            android:maxLength="15"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:hint="@string/palabra_a_introducir"/>
@@ -25,7 +26,8 @@
             android:layout_height="wrap_content"
             android:layout_marginStart="50dp"
             android:layout_marginLeft="50dp"
-            android:text="@string/insertar"/>
+            android:text="@string/insertar"
+            android:onClick="addWord"/>
     </LinearLayout>
 
     <LinearLayout
@@ -39,12 +41,14 @@
             android:layout_height="wrap_content">
             <EditText
                 android:id="@+id/sinon_1"
+                android:maxLength="15"
                 android:hint="@string/sinonimo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 />
             <EditText
                 android:id="@+id/sinon_2"
+                android:maxLength="15"
                 android:hint="@string/sinonimo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
