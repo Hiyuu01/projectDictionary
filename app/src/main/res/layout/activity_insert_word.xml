@@ -30,42 +30,26 @@
             android:onClick="addWord"/>
     </LinearLayout>
 
-    <LinearLayout
-        android:layout_marginTop="150dp"
-        android:orientation="horizontal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content">
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content">
+
             <EditText
-                android:id="@+id/sinon_1"
+                android:id="@+id/edit_sinon_1"
                 android:maxLength="15"
                 android:hint="@string/sinonimo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 />
             <EditText
-                android:id="@+id/sinon_2"
+                android:id="@+id/edit_sinon_2"
                 android:maxLength="15"
                 android:hint="@string/sinonimo"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 />
 
-        </LinearLayout>
 
-        <Button
-            android:id="@+id/btn_add_sins"
-            android:layout_marginStart="145dp"
-            android:layout_marginLeft="145dp"
-            android:layout_marginTop="28dp"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/insertar"/>
 
-    </LinearLayout>
+
+
 
 
 
